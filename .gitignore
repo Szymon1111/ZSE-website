@@ -1,0 +1,7 @@
+# Packages
+node_modules
+.nuxt/
+logs/
+
+# repo specific
+.env
