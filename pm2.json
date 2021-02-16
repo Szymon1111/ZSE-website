@@ -1,0 +1,9 @@
+{
+	"apps": [
+		{
+			"name": "zse-website",
+			"script": "npm",
+			"args": "run start"
+		}
+	]
+}

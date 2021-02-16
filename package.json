@@ -1,0 +1,41 @@
+{
+  "name": "zse-website",
+  "version": "alpha_v1",
+  "private": true,
+  "description": "new, work-in-progress revision of zse.krakow.pl",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "restart": "pm2 restart zse-website",
+		"update": "git pull && npm install && npm run build && npm run restart"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Szymon1111/ZSE-website"
+	},
+	"engines": {
+		"node": ">=12.0.0"
+	},
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/pwa": "^3.3.5",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0",
+    "prettier": "^2.2.1"
+  }
+}
