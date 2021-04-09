@@ -3,10 +3,10 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
 
 ## what
-this is a new, work-in-progress, unconfirmed revision/update for [zse.krakow.pl](http://zse.krakow.pl)
+this is an ~~new, work-in-progress, unconfirmed~~ abandoned revision/update for [zse.krakow.pl](http://zse.krakow.pl)
 
 ## sauce
-uncached testing environment available at [testplatform](https://testplatform.myjdupe.com)<br>
+uncached testing environment ~~available~~ unavailable at [testplatform](https://testplatform.myjdupe.com)<br>
 request a **git pull** on the discord server/messenger group (to be automated)
 
 ## note for fellow devs from ulalou, resident schafter:
